@@ -1,6 +1,6 @@
 classdef OMR_Sheet_Evaluator < matlab.apps.AppBase
 
-    % Properties that correspond to app components
+    % Properties that correspond to app components 
     properties (Access = public)
         OMRSheetEvaluatorUIFigure   matlab.ui.Figure
         ResultPanel                 matlab.ui.container.Panel
@@ -174,7 +174,7 @@ classdef OMR_Sheet_Evaluator < matlab.apps.AppBase
             
         end
 
-        % Button pushed function: EvaluateButton
+        % Button pushed function: EvaluateButton is added
         function EvaluateButtonPushed(app, event)
             if app.flag_single_omr==1
                 app.ResultPanel.Visible=true;
